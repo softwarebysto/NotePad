@@ -1,0 +1,25 @@
+﻿<div class="note shadow">
+    <div class="note-title">
+        @Notes.Title
+    </div>
+    <div class="note-body">
+        <span style="max-height:230px;">
+            @Notes.Conent
+        </span>
+    </div>
+    <div class="note-footer">
+        @Notes.CreateTime.ToString("dd MMM yyyy HH mm")
+        <button class="btn btn-danger">
+            Delete
+        </button>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public GetNotesModel Notes { get; set; } = new();
+
+
+}
+

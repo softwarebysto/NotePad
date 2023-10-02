@@ -1,0 +1,27 @@
+﻿.note{
+    width:250px;
+    height:fit-content;
+    padding:8px;
+    border-radius:12px;
+}
+.note-title{
+    font-size:16px;
+    font-weight:500;
+
+}
+
+.note-body {
+    font-size: 14px;
+    font-weight: 400;
+    height: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:100%;
+}
+.note-footer {
+    display: grid;
+    text-align: end;
+    font-size: 11px;
+    color: darkgray;
+}
